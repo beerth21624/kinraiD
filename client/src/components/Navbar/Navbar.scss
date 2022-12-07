@@ -1,0 +1,30 @@
+.nav-container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #fff;
+}
+.logo-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    font-family: 'Kanit', sans-serif;
+
+}
+.fav-box{
+    position: relative;
+}
+.favorite-count{
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    background-color: red;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
